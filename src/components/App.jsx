@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react"
-import Nav from "./Nav"
-import Article from "./Article"
-import ArticleEntry from "./ArticleEntry"
-import { SignIn, SignOut } from "./auth"
-import { useAuthentication } from "../services/authservice"
-import { fetchArticles, createArticle } from "../services/articleService"
+import Nav from "./Nav.jsx"
+import Article from "./Article.jsx"
+import ArticleEntry from "./ArticleEntry.jsx"
+import { SignIn, SignOut } from "./auth.jsx"
+import { useAuthentication } from "../services/authservice.jsx"
+import { fetchArticles, createArticle } from "../services/articleService.js"
 import "./App.css"
 
 export default function App() {
