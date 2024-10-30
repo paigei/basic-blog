@@ -36,8 +36,8 @@ export default function App() {
   return (
     <div className="App">
       <header>
-        Blogs!
-        {user && <button onClick={() => setWriting(true)}>New Article</button>}
+        Crochet Blog!
+        {user && <button class="new-art" onClick={() => setWriting(true)}>New Article</button>}
         {!user ? <SignIn /> : <SignOut />}
       </header>
 
