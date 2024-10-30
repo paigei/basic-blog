@@ -1,6 +1,11 @@
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: dogica, sans-serif;
+  background-image: url(https://media.freestocktextures.com/cache/df/0d/df0dce04cdccf652ea7647f059997ab9.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .App {
@@ -14,10 +19,14 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  background-color: black;
+  background-color: rgb(31, 31, 31);
   color: white;
   grid-column: 1 / span 2;
-  padding: 10px 5px;
+  padding: 10px 15px;
+}
+
+button {
+  font-family: chalkboard;
 }
 
 form {
