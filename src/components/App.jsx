@@ -33,13 +33,19 @@ export default function App() {
     })
   }
 
+  // Function to reset to the initial screen
+  function goHome() {
+      setArticle(null);
+      setWriting(false);
+  }
+
   return (
     <div className="App">
       <header>
-        Crochet Blog!
+        Crochet Diary!
+        <button onClick={goHome} className="home-button">Home</button>
         {!user ? <SignIn /> : <SignOut />}
       </header>
-
       {!user ? "" : <Nav articles={articles} setArticle={setArticle} user={user} setWriting={setWriting}/>}
 
       {!user ? (
