@@ -57,6 +57,13 @@ nav p:hover {
   cursor: pointer;
 }
 
+article {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
 article .date {
   font-style: italic;
 }
