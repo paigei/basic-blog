@@ -1,3 +1,5 @@
+import { loggedInUserDisplayName } from "../services/authservice";
+
 export default function Article({ article }) {
   const defaultImage = "https://i0.wp.com/tlycblog.com/wp-content/uploads/2023/08/Cover-Image.png?fit=1600%2C2400&ssl=1"; // Replace with a real URL
   const articleImage = article?.image || "https://storage.googleapis.com/ribblr-disk/pics/52295/cover-oi7erl308.jpg"; // Replace with real URLs
